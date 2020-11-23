@@ -15,7 +15,7 @@
         }
 
         function result(elem1){
-            let elem = elem1.split(',') || elem1.split(' ');
+            let elem = elem1.split(',');
 
             for (let i = elem.length - 1; i >= 0; i--){
                 if (elem[i].trim() === "") elem.splice(i, 1);
