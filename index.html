@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app = 'App'>
+<head>
+    <meta charset="UTF-8">
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>web_lab3</title>
+</head>
+<body class="body">
+<div ng-controller="AppController" >
+    Введіть список продуктів(через кому):
+    <br>
+    <input type="text" ng-model="list">
+    <button ng-click="showAnswer()" >Чи не забагато?</button>
+        <div class="text" align="center">{{text}}</div>
+</div>
+</body>
+</html>
